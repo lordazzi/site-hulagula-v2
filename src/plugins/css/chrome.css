@@ -1,0 +1,6 @@
+/* Corrigindo irregularidades do Chrome, para a área administrativa */
+input.backbutton {
+	position: absolute;
+	margin: 12px 0px 0px 120px;
+	display: none;
+}

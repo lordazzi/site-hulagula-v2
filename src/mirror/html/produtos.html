@@ -1,0 +1,35 @@
+{if="$issearch"}
+	<form id="formulario-de-pesquisa">
+		<label for="nome-pizza">Pesquisar Pizza:</label> <input name="nome-pizza" id="nome-pizza" type="search" /><br />
+		<label for="min-preco">Entre R$ </label><input name="min-preco" id="min-preco" type="search" data-type="ufloat" value="{$minpreco}" />
+		<label for="max-preco"> e R$ </label><input name="max-preco" id="max-preco" type="search" data-type="ufloat" value="{$maxpreco}" />
+		<label for="sem-carne">Sem Carne?</label><input name="sem-carne" id="sem-carne" type="checkbox" />
+		<label for="da-promocao">Da Promoção?</label><input name="da-promocao" id="da-promocao" type="checkbox" />
+	</form>
+{else}
+	<div id="alterar-categoria">
+		{loop="categorias"}
+			<span>
+				<a href="?cat={$value.idcategoria}">{$value.categoria}</a>
+			</span>
+		{/loop}
+	</div>
+{/if}
+
+<div id="produtos">
+	{loop="produtos"}
+		<div {$value.data}>
+			<span class="title">{$value.title}</span>
+			<span class="price">{$value.preco}</span><br />
+			<span class="description">{$value.description}</span>
+		</div>
+	{/loop}
+</div>
+
+<div id="alterar-categoria">
+	{loop="categorias"}
+		<span>
+			<a href="?cat={$value.idcategoria}">{$value.categoria}</a>
+		</span>
+	{/loop}
+</div>

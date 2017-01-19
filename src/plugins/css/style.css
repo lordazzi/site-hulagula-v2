@@ -1,0 +1,401 @@
+body {
+	background-image: url("../img/degrade.png");
+	background-repeat: repeat-x;
+	background-color: #333;
+	font-family: arial;
+}
+
+input, select, textarea, button  {
+	background-color: #FFFFFF;
+	border: 1px solid #000;
+	resize: none;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	
+	behavior: url(border-radius.htc);
+	-moz-ie-css3: 5px;
+	-webkit-ie-css3: 5px;
+	ie-css3: 5px;
+}
+
+input[type="submit"], input[type="button"], button {
+	cursor: pointer;
+}
+
+input[type="checkbox"] {
+	border: none;
+}
+
+td {
+	padding: 4px 10px 4px 0px;
+}
+
+/* CONTAINER */
+#container {
+	margin: 0 auto;
+	width: 960px;
+	box-shadow: 10px 10px 25px #000;
+	-webkit-box-shadow: 10px 10px 25px #000;
+	-moz-box-shadow: 10px 10px 25px #000;
+	background-color: #FF0000;
+}
+
+/* HEADER */
+#header {
+	background-color: #5CE786;
+	width: 956px;
+	height: 200px;
+	border: 2px solid #FF0000;
+	border-bottom: 0px;
+}
+
+#header img.slide {
+	width: 656px;
+	height: 200px;
+}
+
+#header span {
+	background-color: #5CE786;
+	display: block;
+	float: left;
+	height: 200px;
+	width: 300px;
+}
+
+#header span img.logo {
+	position: absolute;
+	width: 195px;
+	margin: 7px 45px 0px;
+}
+
+/* MENU */
+#menu {
+	width: 150px;
+	height: 270px;
+	float: left;
+	background-color: #FF0000;
+	padding: 15px 15px;
+}
+
+#menu div {
+	background-color: #D50000;
+	padding: 4px 10px;
+	margin: 5px;
+	width: 120px;
+	color: #FFF;
+	font-size: 19px;
+	font-weight: bold;
+	font-weight: bolder;
+	cursor: pointer;
+	text-align: center;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+}
+
+#menu div:hover {
+	background-color: #B80303;
+}
+
+/* CONTENT */
+#content {
+	background-color: #FFF3C7;
+	width: 778px;
+	border-right: 2px solid #FF0000;
+	min-height: 300px;
+	height: auto;
+	float: left;
+}
+
+/* categoria */
+#content div.categoria {
+	border: 1px solid #000;
+	cursor: pointer;
+	height: 116px;
+	margin: 15px;
+	width: 160px;
+	float: left;
+}
+
+#content div.categoria img {
+	height: 90px;
+	width: 160px;
+}
+
+#content div.categoria span {
+	background-color: #000;
+	display: block;
+	width: 156px;
+	color: #FFF;
+	padding: 2px;
+	height: 23px;
+	text-align: center;
+	margin: -4px 0 0 0;
+	font-weight: bolder;
+}
+
+/* vantagens */
+#content div.vant {
+	background-color: #FFFFFF;
+	border: 1px solid #000000;
+	display: block;
+	height: auto;
+	margin: 20px auto;
+	min-height: 150px;
+	padding: 15px;
+	width: 600px;
+	box-shadow: 1px 6px 20px #E4C964;
+	-moz-box-shadow: 1px 6px 20px #E4C964;
+	-webkit-box-shadow: 1px 6px 20px #E4C964;
+}
+
+#content div.vant img {
+	display: block;
+	float: left;
+	margin: 10px;
+	max-height: 150px;
+	max-width: 150px;
+}
+
+#content div.vant span {
+	display: block;
+	float: left;
+	margin: 10px;
+	width: 400px;
+}
+
+/* produtos */
+#content form.prodt {
+	background-color: #FFFFFF;
+	border: 1px solid #000000;
+	margin: 15px auto;
+	padding: 15px;
+	width: 598px;
+	box-shadow: 1px 6px 20px #E4C964;
+	-moz-box-shadow: 1px 6px 20px #E4C964;
+	-webkit-box-shadow: 1px 6px 20px #E4C964;
+	background-color: #FFF;
+}
+
+#content div.prodt {
+	margin: 10px 75px;
+	border: 1px solid #000;
+	background-color: #CAFFE4;
+	padding: 10px;
+	box-shadow: 1px 6px 20px #E4C964;
+	-moz-box-shadow: 1px 6px 20px #E4C964;
+	-wekbit-box-shadow: 1px 6px 20px #E4C964;
+}
+
+#content div.prodt b {
+	color: #FF0000;
+	font-weight: bolder;
+	text-decoration: none;
+}
+
+#content div.prodt u {
+	color: #FF0000;
+	font-weight: bolder;
+	text-decoration: none;
+	float: right;
+}
+
+#content div.prodt i {
+	font-weight: bolder;
+	text-decoration: none;
+	font-style: normal;
+}
+
+#content div.nova_categ {
+	background-color: #FFFFFF;
+    border: 1px solid #000000;
+    display: block;
+    height: 50px;
+    margin: 15px auto 60px;
+    padding: 10px 0 0;
+    width: 750px;
+	box-shadow: 1px 6px 20px #E4C964;
+	-moz-box-shadow: 1px 6px 20px #E4C964;
+	-webkit-box-shadow: 1px 6px 20px #E4C964;
+}
+
+#content div.nova_categ span {
+	width: 150px;
+	display: block;
+	float: left;
+	text-align: center;
+}
+
+#content div.nova_categ span a {
+	color: #000;
+	text-decoration: none;
+}
+
+#content div.nova_categ span a:hover {
+	text-decoration: underline;
+}
+
+#content div.map {
+	border: 1px solid #000;
+	background-color: #FFF;
+	padding: 10px;
+	float: left;
+	margin: 20px 40px 0px 40px;
+}
+
+#content img.map {
+	margin: 20px 40px 40px 40px;
+	border-radius: 25px;
+	-moz-border-radius: 25px;
+	-webkit-border-radius: 25px;
+	box-shadow: 1px 6px 20px #E4C964;
+	-moz-box-shadow: 1px 6px 20px #E4C964;
+	-webkit-box-shadow: 1px 6px 20px #E4C964;
+}
+
+#content div.pizza_promotion {
+	background-color: #FFF;
+	margin-top: 15px;
+}
+
+#content div.pizza_promotion span {
+	text-align: center;
+	display: block;
+	float: left;
+	padding: 15px 15px 25px 45px;
+}
+
+#content div.pizza_promotion span b {
+	font-size: 40px;
+	font-family: arial black;
+	color: #FF0000;
+}
+
+#content div.pizza_promotion span i {
+	font-style: normal;
+	font-weight: bolder;
+}
+
+#content div.pizza_promotion img.top {
+	margin-top: -10px;
+}
+
+#content div.pizza_promotion img.bottom {
+	margin-bottom: -10px;
+}
+
+#content div.pizza_promotion img.promote {
+	float: right; position: absolute; margin-top: -55px; margin-left: 40px; z-index: 99; width: 350px;
+}
+
+#content div.pizza_promotion img.numeros {
+	position: relative;
+	z-index: 120;
+}
+
+/* FOOTER */
+#footer {
+	width: 960px;
+	height: 45px;
+	background-color: #000;
+	clear: both;
+	color: #FFF;
+	font-weight: bolder;
+}
+
+#footer b {
+	float: left;
+	margin: 12px;
+}
+
+#footer span {
+	float: right;
+	text-align: right;
+	display: block;
+	margin: 5px;
+}
+
+#footer span span {
+	border: 1px solid #FFF;
+	padding: 1px 4px;
+}
+
+div.open {
+	position: fixed;
+	bottom: 10px;
+	right: 10px;
+	padding: 10px;
+	color: #C2FFC2;
+	font-weight: bolder;
+	border: 1px solid #006600;
+	background-color: #33CC00;
+	box-shadow: 0px 0px 25px #00CC00;
+	-moz-box-shadow: 0px 0px 25px #00CC00;
+	-webkit-box-shadow: 0px 0px 25px #00CC00;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+}
+
+div.close {
+	position: fixed;
+	bottom: 10px;
+	right: 10px;
+	padding: 10px;
+	color: #CCC;
+	font-weight: bolder;
+	border: 1px solid #333;
+	background-color: #999999;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+}
+
+/*########################
+##						##
+##		SUGESTÕES		##
+##						##
+########################*/
+
+div#suggestion {
+	overflow: hidden;
+}
+
+div#suggestion input, div#suggestion textarea {
+	background-color: #FFF;
+	border: 1px solid #000;
+	resize: none;
+}
+
+div#suggestion input {
+	cursor: pointer;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	
+	behavior: url(border-radius.htc);
+	-moz-ie-css3: 5px;
+	-webkit-ie-css3: 5px;
+	ie-css3: 5px;
+}
+
+div#suggestion textarea {
+	text-decoration: italic;
+	color: #999;
+	width: 145px;
+	height: 110px;
+	overflow: hidden;
+}
+
+iframe.suggestion {
+	width: 170px;
+	height: 150px;
+	border: none;
+	margin: 0 -10px;
+}
+
+.suggestion {
+	color: #000;
+	font-weight: bolder;
+}

@@ -1,0 +1,52 @@
+#promote-esfiha {
+	width: 700px;
+	height: 417px;
+	display: block;
+	margin: 0 auto;
+}
+
+#promote-pizza-preco {
+	position: relative;
+	left: 580px;
+	top: 75px;
+}
+
+#promote-esfihas-preco {
+	position: relative;
+	left: 50px;
+	top: 55px;
+}
+
+#promote-esfihas-qtdd {
+	position: relative;
+	left: 510px;
+	top: 172px;
+	width: 33px;
+}
+
+#promote-pizza {
+	width: 960px;
+	height: 332px;
+	position: relative;
+	top: -40px;
+	margin-bottom: -85px;
+	z-index: 5;
+	span {
+		position: absolute;
+		&.title {
+			font-size: 40px;
+			font-family: arial black;
+			color: #FF0000;
+			top: 100px;
+			left: 150px;
+		}
+		
+		&.produtos {
+			font-style: normal;
+			font-weight: bolder;
+			text-align: center;
+			top: 165px;
+			left: 125px;
+		}
+	}
+}

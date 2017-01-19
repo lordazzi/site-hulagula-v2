@@ -1,0 +1,8 @@
+/* corrigindo irregularidades do Opera */
+div#suggestion input {
+	margin-top: 7px;
+}
+
+#content div.pizza_promotion img.promote {
+    margin-left: -380px;
+}

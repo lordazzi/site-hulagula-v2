@@ -1,0 +1,112 @@
+body {
+	overflow-y: scroll;
+}
+
+.box-shadow(@params) {
+	box-shadow: @params;
+	-moz-box-shadow: @params;
+	-webkit-box-shadow: @params;
+}
+
+.border-radius(@params) {
+	border-radius: @params;
+	-moz-border-radius: @params;
+	-webkit-border-radius: @params;
+}
+
+.text-shadow(@params) {
+	text-shadow: @params;
+	-moz-text-shadow: @params;
+	-webkit-text-shadow: @params;
+}
+
+#formulario-de-pesquisa {
+	.box-shadow(1px 6px 20px #E4C964);
+	background-color: #FFF;
+	text-align: center;
+	border: 1px solid #000;
+	margin: 15px auto;
+	padding: 15px;
+	width: 530px;
+	
+	input[type='search'] {
+		padding: 3px 5px;
+		margin: 0 0 5px;
+		border: 1px solid #000;
+		.border-radius(4px);
+		&:focus {
+			outline: none;
+			.box-shadow(0 0 10px #EEE);
+		}
+	}
+	
+	input[type='checkbox'] {
+		margin: 0 3px 0 5px;
+	}
+}
+
+#produtos {
+	div {
+		margin: 10px 75px;
+		border: 1px solid #000;
+		background-color: #CAFFE4;
+		padding: 10px;
+		.box-shadow(1px 6px 20px #E4C964);
+		
+		.title, .price {
+			color: #FF0000;
+			font-weight: bolder;
+		}
+		
+		.price {
+			float: right;
+		}
+		
+		.description {
+			font-family: "ChampagneLimousines";
+		}
+	}
+}
+
+#nome-pizza {
+	width: 370px;
+}
+
+#min-preco, #max-preco {
+	width: 45px;
+}
+
+label[for='sem-carne'] {
+	margin-left: 37px;
+	color: #ff3333;
+	.text-shadow(0 0 1px #ff3333);
+}
+
+label[for='da-promocao'] {
+	color: #339900;
+	.text-shadow(0 0 1px #339900);
+}
+
+#alterar-categoria {
+	.box-shadow(1px 6px 20px #E4C964);
+	background-color: #FFFFFF;
+	border: 1px solid #000000;
+	display: block;
+	height: 50px;
+	margin: 15px auto 20px;
+	padding: 10px 0 0;
+	width: 750px;
+	span {
+		width: 150px;
+		display: block;
+		float: left;
+		text-align: center;
+		a {
+			color: #000;
+			text-decoration: none;
+			&:hover {
+				text-decoration: underline;
+			}
+		}
+	}
+}

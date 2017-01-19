@@ -1,0 +1,459 @@
+body {
+	background-image: url("../img/degrade.png");
+	background-repeat: repeat-x;
+	background-color: #333;
+	font-family: arial;
+	font-weight: bold;
+	font-size: 16px;
+}
+
+input[type="text"], input[type="button"], input[type="submit"], input[type="password"], select, button {
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	border: 1px solid #000;
+	background-color: #FFF;
+	float: right;
+	float: right;
+}
+
+input[type="button"], input[type="submit"], button {
+	cursor: pointer;
+}
+
+.forgetpass {
+	font-size: 11px;
+	float: left;
+	position: relative;
+	top: -10px;
+	color: #000000;
+	text-decoration: none;
+	font-weight: normal;
+}
+
+.forgetpass:hover {
+	text-decoration: underline;
+	cursor: pointer;
+}
+
+input.backbutton {
+	margin: 10px 60px -30px;
+	display: inline;
+}
+
+span#sair {
+	background-color: #1FC450;
+	color: #FFFFFF;
+	border-radius: 0px 0px 10px 10px;
+	-moz-border-radius: 0px 0px 10px 10px;
+	-webkit-border-radius: 0px 0px 10px 10px;
+	width: 100px;
+	height: 25px;
+	position: fixed;
+	top: 0px;
+	left: 85%;
+	text-align: center;
+	cursor: pointer;
+}
+
+span#sair:hover {
+	background-color: #18953D;
+}
+
+/* CONTAINER */
+div#container {
+	width: 1020px;
+	margin: 0 auto;
+	box-shadow: 10px 10px 25px #000;
+	-webkit-box-shadow: 10px 10px 25px #000;
+	-moz-box-shadow: 10px 10px 25px #000;
+	border-radius: 0 0 25px 25px;
+	-webkit-border-radius: 0 0 25px 25px;
+	-moz-border-radius: 0 0 25px 25px;
+}
+
+/* MENU */
+div#menu {
+	width: 260px;
+	height: 565px;
+	float: left;
+	background-color: #5CE786;
+	padding: 25px 25px 50px;
+	border-radius: 0 0 0 25px;
+	-webkit-border-radius: 0 0 0 25px;
+	-moz-border-radius: 0 0 0 25px;
+}
+
+div#menu div {
+	display: block;
+	float: left;
+	margin: 13px 0;
+	width: 255px;
+} 
+
+div#menu div span {
+	display: block;
+	float: left;
+	font-size: 10px;
+	text-align: center;
+	vertical-align: bottom;
+	margin: 7px;
+	height: 45px;
+	width: 49px;
+}
+
+div#menu div span img {
+	height: 35px;
+	cursor: pointer;
+}
+
+div#menu div span a {
+	color: black;
+	text-decoration: none;
+}
+
+div#menu div span:hover a {
+	text-decoration: underline;
+}
+
+/* CONTENT */
+div#content {
+	width: 708px;
+	height: 636px;
+	float: left;
+	border-right: 2px solid #5CE786;
+	border-top: 2px solid #5CE786;
+	border-bottom: 2px solid #5CE786;
+	background-color: #FFFFFF;
+	border-radius: 0 0 25px 0;
+	-webkit-border-radius: 0 0 25px 0;
+	-moz-border-radius: 0 0 25px 0;
+}
+
+div#content a:visited, div#content a:link, div#content a:active {
+	color: #000000;
+	text-decoration: none;
+}
+
+div#content a:hover {
+	text-decoration: underline;
+}
+
+div#content b {
+	font-size: 25px;
+	margin: 25px;
+	display: block;
+}
+
+div#content div#subcontent {
+	border: 2px solid #000000;
+	margin: 25px;
+	height: 528px;
+	border-radius: 0 0 25px 0;
+	-webkit-border-radius: 0 0 25px 0;
+	-moz-border-radius: 0 0 25px 0;
+}
+
+div#content div#subcontent form {
+	padding: 5px 25px;
+}
+
+div#content div#subcontent form label {
+	display: block;
+	width: 300px;
+	margin: 0 0 -15px 0;
+}
+
+div#content div#subcontent form i {
+	font-size: 12px;
+	font-weight: normal;
+}
+
+div#content div#subcontent fieldset {
+	margin: 0 auto;
+	width: 410px;
+	padding: 20px;
+}
+
+div#content div#subcontent  table tr:hover {
+	background-color: #EBEBEB;
+	color: #000000;
+}
+
+div#content div#subcontent  table tr {
+	border: 0px;
+}
+
+/* table especial */
+table.table {
+	border-top: 1px solid #CBF8D8;
+	background-color: #9AEDB2;
+	border-bottom: 1px solid #2FC75C;
+}
+
+table.table tr:hover {
+	background-color: #8EEDAA !important;
+}
+
+/* FOOTER */
+div#footer {
+	clear: both;
+}
+
+/* LOGIN */
+div#login {
+	background-color: #5CE786;
+	margin: 10% auto;
+	border-radius: 10px;
+	width: 250px;
+	box-shadow: 10px 10px 25px #000;
+	-webkit-box-shadow: 10px 10px 25px #000;
+	-moz-box-shadow: 10px 10px 25px #000;
+}
+
+div#login div {
+	background-color: #2B964B;
+	border-radius: 10px 10px 0px 0px;
+	color: #FFFFFF;
+	padding: 10px;
+	font-weight: bolder;
+	font-size: 18px;
+}
+
+div#login span {
+	padding: 10px;
+	display: block;
+}
+
+div#login label {
+	margin-bottom: 2px; 
+	display: block;
+}
+
+div#login input[type="submit"] {
+	float: none;
+	margin: 10px 0 -12px 175px;
+}
+
+/* seta para a esquerda */
+span.left {
+	background-image: url("../img/left_normal.png");
+	cursor: pointer;
+	display: block;
+	height: 16px;
+	width: 8px;
+	float: left;
+	margin: 25px 5px 0 0;
+}
+
+span.left:hover {
+	background-image: url("../img/left_dark.png");
+}
+
+span.left_block {
+	background-image: url("../img/left_block.png");
+	cursor: default;
+	display: block;
+	height: 16px;
+	width: 8px;
+	float: left;
+	margin: 25px 5px 0 0;
+}
+
+/* seta para a direita */
+span.right {
+	background-image: url("../img/right_normal.png");
+	cursor: pointer;
+	display: block;
+	height: 16px;
+	width: 8px;
+	float: left;
+	margin: 25px 0 0 5px;
+}
+
+span.right:hover {
+	background-image: url("../img/right_dark.png");
+}
+
+span.right_block {
+	background-image: url("../img/right_block.png");
+	cursor: default;
+	display: block;
+	height: 16px;
+	width: 8px;
+	float: left;
+	margin: 25px 0 0 5px;
+}
+
+/* seta para cima */
+span.up {
+	background-image: url("../img/up_normal.png");
+	cursor: pointer;
+	display: block;
+	height: 8px;
+	width: 16px;
+	float: left;
+}
+
+span.up:hover {
+	background-image: url("../img/up_dark.png");
+}
+
+span.up_block {
+	background-image: url("../img/up_block.png");
+	cursor: default;
+	display: block;
+	height: 8px;
+	width: 16px;
+	float: left;
+}
+
+/* seta para baixo */
+span.down {
+	background-image: url("../img/down_normal.png");
+	cursor: pointer;
+	display: block;
+	height: 8px;
+	width: 16px;
+	float: left;
+}
+
+span.down:hover {
+	background-image: url("../img/down_dark.png");
+}
+
+span.down_block {
+	background-image: url("../img/down_block.png");
+	cursor: default;
+	display: block;
+	height: 8px;
+	width: 16px;
+	float: left;
+}
+
+/* menu de editação no estilo de alert */
+div.fullbackground {
+	background-image: url("../img/alphablack.png");
+	position: fixed;
+	width: 100%;
+	height: 100%;
+	top: 0px;
+	left: 0px;
+	right: 0px;
+	bottom: 0px;
+	z-index: 100;
+}
+
+div.fullbackground form {
+	background-color: #EBEBEB;
+	border: 1px solid #000000;
+	border-radius: 10px 10px 10px 10px;
+	display: block;
+	height: 315px;
+	margin: 30px auto;
+	padding: 30px 30px 50px 30px;
+	width: 490px;
+}
+
+div.fullbackground form textarea {
+	border: 1px solid #000000;
+	font-family: arial;
+	width: 485px;
+	height: 250px;
+	max-width: 485px;
+	max-height: 250px;
+	min-width: 485px;
+	min-height: 250px;
+	overflow: hidden;
+}
+
+div.fullbackground form span {
+	float: right !important;
+	width: 130px !important;
+}
+
+div.fullbackground form span label {
+	overflow: visible;
+}
+
+div.fullbackground form span input[type="button"] {
+	float: left !important;
+}
+
+div.fullbackground form.no span {
+	float: none !important;
+	width: auto !important;
+}
+
+div.fullbackground form.no span label {
+	overflow: auto;
+}
+
+div.fullbackground form.no span input[type="button"] {
+	float: none !important;
+}
+
+img.logo {
+	position: fixed;
+	right: 5px;
+	bottom: 5px;
+}
+
+a img.hidden_img {
+	max-width: 125px;
+	max-height: 125px;
+	position: absolute;
+	display: none;
+	margin: -50px 0px 0px 50px;
+}
+
+a:hover {
+	cursor: pointer;
+}
+
+a:hover img.hidden_img {
+	display: block;
+}
+
+div.categ_admin {
+	border: 1px solid #000000;
+	float: left;
+	height: 116px;
+	margin: 15px;
+	width: 160px;
+	position: relative;
+}
+
+div.categ_admin img {
+	height: 90px;
+	width: 160px;
+}
+
+div.categ_admin div {
+	background-color: #FFF;
+	border: 1px solid #000;
+	height: 17px;
+	width: 17px;
+	position: absolute;
+	cursor: pointer;
+	margin: -95px 0px 0px 20px;
+	color: #FF0000;
+	text-align: center;
+}
+
+div.categ_admin div img {
+	height: auto;
+	width: auto;
+}
+
+div.categ_admin span {
+	background-color:#000;
+	color:#FFF;
+	display:block;
+	font-weight:bolder;
+	height:23px;
+	margin:-5px 0 0;
+	padding:2px;
+	text-align:center;
+	width:156px;
+}

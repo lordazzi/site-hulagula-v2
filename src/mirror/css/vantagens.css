@@ -1,0 +1,35 @@
+.box-shadow(@params) {
+	box-shadow: @params;
+	-moz-box-shadow: @params;
+	-webkit-box-shadow: @params;
+}
+
+.vantagem {
+	background-color: #FFFFFF;
+	border: 1px solid #000000;
+	display: block;
+	height: auto;
+	margin: 20px auto;
+	min-height: 150px;
+	padding: 15px;
+	width: 600px;
+	.box-shadow(1px 6px 20px #E4C964);
+	
+	span {
+		display: block;
+		float: left;
+		margin: 10px;
+		width: 400px;
+	}
+	
+	img {
+		display: block;
+		float: left;
+		margin: 10px;
+		max-height: 150px;
+		max-width: 150px;
+	}
+	&:nth-child(even) img {
+		float: right;
+	}
+}

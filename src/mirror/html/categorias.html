@@ -1,0 +1,8 @@
+<nav>
+	{loop="categorias"}
+		<a class="categoria" href="produtos.php?cat={$value.idcategoria}" />
+			<img src="arquivo/foto_categorias/{$value.img}" />
+			<span>{$value.categoria}</span>
+		</a>
+	{/loop}
+</nav>

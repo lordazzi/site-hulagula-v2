@@ -1,0 +1,18 @@
+.border-radius(@params) {
+	border-radius: @params;
+	-moz-border-radius: @params;
+	-webkit-border-radius: @params;
+}
+
+.box-shadow(@params) {
+	box-shadow: @params;
+	-moz-box-shadow: @params;
+	-webkit-box-shadow: @params;
+}
+
+#content img {
+	display: block;
+	margin: 20px auto 40px;
+	.border-radius(25px);
+	.box-shadow(1px 6px 20px #E4C964);
+}
